@@ -3,9 +3,9 @@ import os
 
 
 path = os.getcwd()
-print(os.getcwd())
+#print(os.getcwd())
 sqlite_path = os.path.join(os.getcwd(),fr'examples\database\northwind.db')
-print('sqlite:///{}'.format(sqlite_path))
+#print('sqlite:///{}'.format(sqlite_path))
 
 engine = create_engine('sqlite:///{}'.format(sqlite_path), echo=True)
 

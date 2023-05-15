@@ -14,5 +14,10 @@ Features:
 
 data_cubes
 
-
 pip freeze requirements.txt
+
+
+
+# 参考文献
+
+[Working with Transactions and the DBAPI — SQLAlchemy 2.0 Documentation](https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactions.html)
